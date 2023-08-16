@@ -174,7 +174,7 @@ let League = () => {
             {/* modal add*/}
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
+                <Modal.Title>Add</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <input type="text" id="league_id"  onChange={e => setId(e.target.value)}></input>
@@ -193,7 +193,7 @@ let League = () => {
             {/* modal update */}
             <Modal show={show2} onHide={handleClose2}>
                 <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
+                <Modal.Title>update</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <input type="text" id="league_id"  value={id} onChange={e => setId(e.target.value)}></input>
