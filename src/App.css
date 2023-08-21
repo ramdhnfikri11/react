@@ -1,4 +1,11 @@
+.test-counter{
+  margin-top: 10px;
+  text-align: center;
+}
 
+.test-counter button{
+  margin: 10px;
+}
 
 .App-logo {
   height: 40vmin;
